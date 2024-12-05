@@ -7,7 +7,7 @@ app = Flask(__name__)
 CORS(app)
 
 # Your VirusTotal API key
-VIRUS_TOTAL_API_KEY = "9f6604cca0d379302f138a1c6385319a7794e60947b73232b229e7842cb11f99"
+VIRUS_TOTAL_API_KEY = ""
 
 @app.route('/check_url', methods=['POST'])
 def check_url():
